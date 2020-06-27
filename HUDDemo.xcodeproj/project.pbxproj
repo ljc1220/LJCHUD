@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F450F43C24A2F3670000F646 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F450F43B24A2F3670000F646 /* AppDelegate.m */; };
+		F450F43F24A2F3670000F646 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F450F43E24A2F3670000F646 /* SceneDelegate.m */; };
+		F450F44224A2F3670000F646 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F450F44124A2F3670000F646 /* ViewController.m */; };
+		F450F44524A2F3670000F646 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F450F44324A2F3670000F646 /* Main.storyboard */; };
+		F450F44724A2F36D0000F646 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F450F44624A2F36D0000F646 /* Assets.xcassets */; };
+		F450F44A24A2F36D0000F646 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F450F44824A2F36D0000F646 /* LaunchScreen.storyboard */; };
+		F450F44D24A2F36D0000F646 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F450F44C24A2F36D0000F646 /* main.m */; };
+		F450F45724A2F36D0000F646 /* HUDDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F450F45624A2F36D0000F646 /* HUDDemoTests.m */; };
+		F450F46224A2F36D0000F646 /* HUDDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F450F46124A2F36D0000F646 /* HUDDemoUITests.m */; };
+		F450F47524A2F3C10000F646 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F450F47124A2F3C10000F646 /* MBProgressHUD.m */; };
+		F450F47824A2F3CB0000F646 /* HUDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F450F47724A2F3CB0000F646 /* HUDViewController.m */; };
+		F450F47A24A339EC0000F646 /* mifeng.gif in Resources */ = {isa = PBXBuildFile; fileRef = F450F47924A339EC0000F646 /* mifeng.gif */; };
+		F450F47F24A33B850000F646 /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F450F47C24A33B850000F646 /* FLAnimatedImage.m */; };
+		F450F48024A33B850000F646 /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F450F47E24A33B850000F646 /* FLAnimatedImageView.m */; };
+		F450F48624A344B30000F646 /* MBProgressHUD+LJCHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F450F48524A344B30000F646 /* MBProgressHUD+LJCHUD.m */; };
+		F450F49924A350E10000F646 /* ljc_success.png in Resources */ = {isa = PBXBuildFile; fileRef = F450F49324A350E00000F646 /* ljc_success.png */; };
+		F450F49A24A350E10000F646 /* ljc_success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F450F49424A350E00000F646 /* ljc_success@2x.png */; };
+		F450F49B24A350E10000F646 /* ljc_error.png in Resources */ = {isa = PBXBuildFile; fileRef = F450F49524A350E00000F646 /* ljc_error.png */; };
+		F450F49C24A350E10000F646 /* ljc_error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F450F49624A350E00000F646 /* ljc_error@2x.png */; };
+		F450F49D24A350E10000F646 /* ljc_success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F450F49724A350E10000F646 /* ljc_success@3x.png */; };
+		F450F49E24A350E10000F646 /* ljc_error@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F450F49824A350E10000F646 /* ljc_error@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F450F45324A2F36D0000F646 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F450F42F24A2F3670000F646 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F450F43624A2F3670000F646;
+			remoteInfo = HUDDemo;
+		};
+		F450F45E24A2F36D0000F646 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F450F42F24A2F3670000F646 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F450F43624A2F3670000F646;
+			remoteInfo = HUDDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F450F43724A2F3670000F646 /* HUDDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HUDDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F450F43A24A2F3670000F646 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F450F43B24A2F3670000F646 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F450F43D24A2F3670000F646 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F450F43E24A2F3670000F646 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F450F44024A2F3670000F646 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F450F44124A2F3670000F646 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F450F44424A2F3670000F646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F450F44624A2F36D0000F646 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F450F44924A2F36D0000F646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F450F44B24A2F36D0000F646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F450F44C24A2F36D0000F646 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F450F45224A2F36D0000F646 /* HUDDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HUDDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F450F45624A2F36D0000F646 /* HUDDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HUDDemoTests.m; sourceTree = "<group>"; };
+		F450F45824A2F36D0000F646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F450F45D24A2F36D0000F646 /* HUDDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HUDDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F450F46124A2F36D0000F646 /* HUDDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HUDDemoUITests.m; sourceTree = "<group>"; };
+		F450F46324A2F36D0000F646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F450F47124A2F3C10000F646 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		F450F47224A2F3C10000F646 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		F450F47624A2F3CB0000F646 /* HUDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUDViewController.h; sourceTree = "<group>"; };
+		F450F47724A2F3CB0000F646 /* HUDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUDViewController.m; sourceTree = "<group>"; };
+		F450F47924A339EC0000F646 /* mifeng.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = mifeng.gif; sourceTree = "<group>"; };
+		F450F47B24A33B850000F646 /* FLAnimatedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImage.h; sourceTree = "<group>"; };
+		F450F47C24A33B850000F646 /* FLAnimatedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImage.m; sourceTree = "<group>"; };
+		F450F47D24A33B850000F646 /* FLAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImageView.h; sourceTree = "<group>"; };
+		F450F47E24A33B850000F646 /* FLAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImageView.m; sourceTree = "<group>"; };
+		F450F48424A344B30000F646 /* MBProgressHUD+LJCHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+LJCHUD.h"; sourceTree = "<group>"; };
+		F450F48524A344B30000F646 /* MBProgressHUD+LJCHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+LJCHUD.m"; sourceTree = "<group>"; };
+		F450F49324A350E00000F646 /* ljc_success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ljc_success.png; sourceTree = "<group>"; };
+		F450F49424A350E00000F646 /* ljc_success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ljc_success@2x.png"; sourceTree = "<group>"; };
+		F450F49524A350E00000F646 /* ljc_error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ljc_error.png; sourceTree = "<group>"; };
+		F450F49624A350E00000F646 /* ljc_error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ljc_error@2x.png"; sourceTree = "<group>"; };
+		F450F49724A350E10000F646 /* ljc_success@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ljc_success@3x.png"; sourceTree = "<group>"; };
+		F450F49824A350E10000F646 /* ljc_error@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ljc_error@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F450F43424A2F3670000F646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F450F44F24A2F36D0000F646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F450F45A24A2F36D0000F646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F450F42E24A2F3670000F646 = {
+			isa = PBXGroup;
+			children = (
+				F450F43924A2F3670000F646 /* HUDDemo */,
+				F450F45524A2F36D0000F646 /* HUDDemoTests */,
+				F450F46024A2F36D0000F646 /* HUDDemoUITests */,
+				F450F43824A2F3670000F646 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F450F43824A2F3670000F646 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F450F43724A2F3670000F646 /* HUDDemo.app */,
+				F450F45224A2F36D0000F646 /* HUDDemoTests.xctest */,
+				F450F45D24A2F36D0000F646 /* HUDDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F450F43924A2F3670000F646 /* HUDDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F450F47924A339EC0000F646 /* mifeng.gif */,
+				F450F46F24A2F3C10000F646 /* MBProgressHUD */,
+				F450F43A24A2F3670000F646 /* AppDelegate.h */,
+				F450F43B24A2F3670000F646 /* AppDelegate.m */,
+				F450F43D24A2F3670000F646 /* SceneDelegate.h */,
+				F450F43E24A2F3670000F646 /* SceneDelegate.m */,
+				F450F44024A2F3670000F646 /* ViewController.h */,
+				F450F44124A2F3670000F646 /* ViewController.m */,
+				F450F47624A2F3CB0000F646 /* HUDViewController.h */,
+				F450F47724A2F3CB0000F646 /* HUDViewController.m */,
+				F450F44324A2F3670000F646 /* Main.storyboard */,
+				F450F44624A2F36D0000F646 /* Assets.xcassets */,
+				F450F44824A2F36D0000F646 /* LaunchScreen.storyboard */,
+				F450F44B24A2F36D0000F646 /* Info.plist */,
+				F450F44C24A2F36D0000F646 /* main.m */,
+			);
+			path = HUDDemo;
+			sourceTree = "<group>";
+		};
+		F450F45524A2F36D0000F646 /* HUDDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F450F45624A2F36D0000F646 /* HUDDemoTests.m */,
+				F450F45824A2F36D0000F646 /* Info.plist */,
+			);
+			path = HUDDemoTests;
+			sourceTree = "<group>";
+		};
+		F450F46024A2F36D0000F646 /* HUDDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F450F46124A2F36D0000F646 /* HUDDemoUITests.m */,
+				F450F46324A2F36D0000F646 /* Info.plist */,
+			);
+			path = HUDDemoUITests;
+			sourceTree = "<group>";
+		};
+		F450F46F24A2F3C10000F646 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				F450F49524A350E00000F646 /* ljc_error.png */,
+				F450F49624A350E00000F646 /* ljc_error@2x.png */,
+				F450F49824A350E10000F646 /* ljc_error@3x.png */,
+				F450F49324A350E00000F646 /* ljc_success.png */,
+				F450F49424A350E00000F646 /* ljc_success@2x.png */,
+				F450F49724A350E10000F646 /* ljc_success@3x.png */,
+				F450F47B24A33B850000F646 /* FLAnimatedImage.h */,
+				F450F47C24A33B850000F646 /* FLAnimatedImage.m */,
+				F450F47D24A33B850000F646 /* FLAnimatedImageView.h */,
+				F450F47E24A33B850000F646 /* FLAnimatedImageView.m */,
+				F450F47224A2F3C10000F646 /* MBProgressHUD.h */,
+				F450F47124A2F3C10000F646 /* MBProgressHUD.m */,
+				F450F48424A344B30000F646 /* MBProgressHUD+LJCHUD.h */,
+				F450F48524A344B30000F646 /* MBProgressHUD+LJCHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F450F43624A2F3670000F646 /* HUDDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F450F46624A2F36D0000F646 /* Build configuration list for PBXNativeTarget "HUDDemo" */;
+			buildPhases = (
+				F450F43324A2F3670000F646 /* Sources */,
+				F450F43424A2F3670000F646 /* Frameworks */,
+				F450F43524A2F3670000F646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HUDDemo;
+			productName = HUDDemo;
+			productReference = F450F43724A2F3670000F646 /* HUDDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F450F45124A2F36D0000F646 /* HUDDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F450F46924A2F36D0000F646 /* Build configuration list for PBXNativeTarget "HUDDemoTests" */;
+			buildPhases = (
+				F450F44E24A2F36D0000F646 /* Sources */,
+				F450F44F24A2F36D0000F646 /* Frameworks */,
+				F450F45024A2F36D0000F646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F450F45424A2F36D0000F646 /* PBXTargetDependency */,
+			);
+			name = HUDDemoTests;
+			productName = HUDDemoTests;
+			productReference = F450F45224A2F36D0000F646 /* HUDDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F450F45C24A2F36D0000F646 /* HUDDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F450F46C24A2F36D0000F646 /* Build configuration list for PBXNativeTarget "HUDDemoUITests" */;
+			buildPhases = (
+				F450F45924A2F36D0000F646 /* Sources */,
+				F450F45A24A2F36D0000F646 /* Frameworks */,
+				F450F45B24A2F36D0000F646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F450F45F24A2F36D0000F646 /* PBXTargetDependency */,
+			);
+			name = HUDDemoUITests;
+			productName = HUDDemoUITests;
+			productReference = F450F45D24A2F36D0000F646 /* HUDDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F450F42F24A2F3670000F646 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Aliang Ren";
+				TargetAttributes = {
+					F450F43624A2F3670000F646 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					F450F45124A2F36D0000F646 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = F450F43624A2F3670000F646;
+					};
+					F450F45C24A2F36D0000F646 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = F450F43624A2F3670000F646;
+					};
+				};
+			};
+			buildConfigurationList = F450F43224A2F3670000F646 /* Build configuration list for PBXProject "HUDDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F450F42E24A2F3670000F646;
+			productRefGroup = F450F43824A2F3670000F646 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F450F43624A2F3670000F646 /* HUDDemo */,
+				F450F45124A2F36D0000F646 /* HUDDemoTests */,
+				F450F45C24A2F36D0000F646 /* HUDDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F450F43524A2F3670000F646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F450F49A24A350E10000F646 /* ljc_success@2x.png in Resources */,
+				F450F49D24A350E10000F646 /* ljc_success@3x.png in Resources */,
+				F450F47A24A339EC0000F646 /* mifeng.gif in Resources */,
+				F450F49924A350E10000F646 /* ljc_success.png in Resources */,
+				F450F44A24A2F36D0000F646 /* LaunchScreen.storyboard in Resources */,
+				F450F44724A2F36D0000F646 /* Assets.xcassets in Resources */,
+				F450F49E24A350E10000F646 /* ljc_error@3x.png in Resources */,
+				F450F49B24A350E10000F646 /* ljc_error.png in Resources */,
+				F450F44524A2F3670000F646 /* Main.storyboard in Resources */,
+				F450F49C24A350E10000F646 /* ljc_error@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F450F45024A2F36D0000F646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F450F45B24A2F36D0000F646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F450F43324A2F3670000F646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F450F44224A2F3670000F646 /* ViewController.m in Sources */,
+				F450F47524A2F3C10000F646 /* MBProgressHUD.m in Sources */,
+				F450F48024A33B850000F646 /* FLAnimatedImageView.m in Sources */,
+				F450F43C24A2F3670000F646 /* AppDelegate.m in Sources */,
+				F450F47F24A33B850000F646 /* FLAnimatedImage.m in Sources */,
+				F450F47824A2F3CB0000F646 /* HUDViewController.m in Sources */,
+				F450F48624A344B30000F646 /* MBProgressHUD+LJCHUD.m in Sources */,
+				F450F44D24A2F36D0000F646 /* main.m in Sources */,
+				F450F43F24A2F3670000F646 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F450F44E24A2F36D0000F646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F450F45724A2F36D0000F646 /* HUDDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F450F45924A2F36D0000F646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F450F46224A2F36D0000F646 /* HUDDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F450F45424A2F36D0000F646 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F450F43624A2F3670000F646 /* HUDDemo */;
+			targetProxy = F450F45324A2F36D0000F646 /* PBXContainerItemProxy */;
+		};
+		F450F45F24A2F36D0000F646 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F450F43624A2F3670000F646 /* HUDDemo */;
+			targetProxy = F450F45E24A2F36D0000F646 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F450F44324A2F3670000F646 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F450F44424A2F3670000F646 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F450F44824A2F36D0000F646 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F450F44924A2F36D0000F646 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F450F46424A2F36D0000F646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F450F46524A2F36D0000F646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F450F46724A2F36D0000F646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MU45XF42D7;
+				INFOPLIST_FILE = HUDDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yimeiquan.HUDDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F450F46824A2F36D0000F646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MU45XF42D7;
+				INFOPLIST_FILE = HUDDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yimeiquan.HUDDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F450F46A24A2F36D0000F646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MU45XF42D7;
+				INFOPLIST_FILE = HUDDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yimeiquan.HUDDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HUDDemo.app/HUDDemo";
+			};
+			name = Debug;
+		};
+		F450F46B24A2F36D0000F646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MU45XF42D7;
+				INFOPLIST_FILE = HUDDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yimeiquan.HUDDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HUDDemo.app/HUDDemo";
+			};
+			name = Release;
+		};
+		F450F46D24A2F36D0000F646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MU45XF42D7;
+				INFOPLIST_FILE = HUDDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yimeiquan.HUDDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HUDDemo;
+			};
+			name = Debug;
+		};
+		F450F46E24A2F36D0000F646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MU45XF42D7;
+				INFOPLIST_FILE = HUDDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yimeiquan.HUDDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HUDDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F450F43224A2F3670000F646 /* Build configuration list for PBXProject "HUDDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F450F46424A2F36D0000F646 /* Debug */,
+				F450F46524A2F36D0000F646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F450F46624A2F36D0000F646 /* Build configuration list for PBXNativeTarget "HUDDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F450F46724A2F36D0000F646 /* Debug */,
+				F450F46824A2F36D0000F646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F450F46924A2F36D0000F646 /* Build configuration list for PBXNativeTarget "HUDDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F450F46A24A2F36D0000F646 /* Debug */,
+				F450F46B24A2F36D0000F646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F450F46C24A2F36D0000F646 /* Build configuration list for PBXNativeTarget "HUDDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F450F46D24A2F36D0000F646 /* Debug */,
+				F450F46E24A2F36D0000F646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F450F42F24A2F3670000F646 /* Project object */;
+}
