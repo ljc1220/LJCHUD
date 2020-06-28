@@ -28,6 +28,7 @@
 		F450F49C24A350E10000F646 /* ljc_error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F450F49624A350E00000F646 /* ljc_error@2x.png */; };
 		F450F49D24A350E10000F646 /* ljc_success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F450F49724A350E10000F646 /* ljc_success@3x.png */; };
 		F450F49E24A350E10000F646 /* ljc_error@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F450F49824A350E10000F646 /* ljc_error@3x.png */; };
+		F4CD16E624A834A90041C65C /* RPReplay_Final1593307276.gif in Resources */ = {isa = PBXBuildFile; fileRef = F4CD16E524A834A90041C65C /* RPReplay_Final1593307276.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,7 @@
 		F450F49624A350E00000F646 /* ljc_error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ljc_error@2x.png"; sourceTree = "<group>"; };
 		F450F49724A350E10000F646 /* ljc_success@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ljc_success@3x.png"; sourceTree = "<group>"; };
 		F450F49824A350E10000F646 /* ljc_error@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ljc_error@3x.png"; sourceTree = "<group>"; };
+		F4CD16E524A834A90041C65C /* RPReplay_Final1593307276.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = RPReplay_Final1593307276.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 		F450F43924A2F3670000F646 /* HUDDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F4CD16E524A834A90041C65C /* RPReplay_Final1593307276.gif */,
 				F450F47924A339EC0000F646 /* mifeng.gif */,
 				F450F46F24A2F3C10000F646 /* MBProgressHUD */,
 				F450F43A24A2F3670000F646 /* AppDelegate.h */,
@@ -298,6 +301,7 @@
 				F450F49D24A350E10000F646 /* ljc_success@3x.png in Resources */,
 				F450F47A24A339EC0000F646 /* mifeng.gif in Resources */,
 				F450F49924A350E10000F646 /* ljc_success.png in Resources */,
+				F4CD16E624A834A90041C65C /* RPReplay_Final1593307276.gif in Resources */,
 				F450F44A24A2F36D0000F646 /* LaunchScreen.storyboard in Resources */,
 				F450F44724A2F36D0000F646 /* Assets.xcassets in Resources */,
 				F450F49E24A350E10000F646 /* ljc_error@3x.png in Resources */,
